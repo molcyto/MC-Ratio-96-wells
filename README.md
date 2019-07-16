@@ -9,8 +9,7 @@ ImageJ macro for analyzing fluorescence data obtained in 96 wells plates
 - 3 dfg dg
 
 ## images
-
-<img src="https://github.com/molcyto/MC-Ratio-96-wells/blob/master/Screenshot%20Ratio_96wells_macro_v6.png" width="400">
+<img src="https://github.com/molcyto/MC-Ratio-96-wells/blob/master/Screenshot%20Ratio_96wells_macro_v6.png" width="600">
 
 ## links
 [Visualizing heterogeneity](http://thenode.biologists.com/visualizing-heterogeneity-of-imaging-data/research/)
