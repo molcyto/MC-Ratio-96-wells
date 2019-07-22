@@ -27,7 +27,7 @@ Test can be downloaded from following zenodo repository : https://doi.org/10.528
 
 ## Explanation input dialog for Macro_96wells_Ratio_v7.ijm
 - 96 wells or 384 wells: here the well plate format can be selected.
-- Fixed background valuw or rolling ball background: these are options to correct for background in the ratio images. Rolling ball uses the ImageJ rolling ball (radius 100 pixels) background subtraction. Fixed uses a fixed gray value that is subtracted from each ratio image.
+- Fixed background value or rolling ball background: these are options to correct for background in the ratio images. Rolling ball uses the ImageJ rolling ball (radius 100 pixels) background subtraction. Fixed uses a fixed gray value that is subtracted from each ratio image.
 - In case of fixed background, what is background intensity: In case the previous input selected 'rolling ball' this is a dummy input, otherwise it sets the background gray value that is subtracted from the images prior to analysis.
 - Fixed threshold value or modal value threshold: Here you can choose how cells are recognized in the image, either by selecting a fixed threshold intensity above which you assume there are cells, or a modal value determination that determines the modal (background) gray value and uses a statistical evaluation of pixels above this background.
 - In case of fixed threshold, what intensity over the background: in case the previous choice was fixed, this is the lower intensity threshold for selecting cells in the analysis, otherwise this is a dummy input.
@@ -47,7 +47,7 @@ Test can be downloaded from following zenodo repository : https://doi.org/10.528
 - Acquisition in meandering mode: If selected the sequence of ratio images is assumed to be in the order A1-A12, B12-B1, C1-C12, D12-D1, E1-E12, F12-F1, G1-G12, H12-H1 for a 96 well plate. If not selected it assumes an order A1-A12, B1-B12, C1-C12, D1-D12, E1-E12, F1-F12, G1-G12, H1-H12.
 
 ## Screenshot of input dialog for Macro_process_flatfield_v3.ijm
-<img src="https://github.com/molcyto/MC-Ratio-96-wells/blob/master/Screenshot%20Macro_process_flatfield_v3.ijm.png" width="600">
+<img src="https://github.com/molcyto/MC-Ratio-96-wells/blob/master/Screenshot%20Macro_process_flatfield3.ijm.png" width="600">
 
 ## Explanation input dialog for Macro_process_flatfield_v3.ijm
 - Work on current image or load from directory: Here you can choose to either use the current image already displayed in ImageJ as flatfield image, or you load a stored image as flatfield image. This should be a ratiometric image from a spatially uniform object (such as a fluorescent plastic slide).
