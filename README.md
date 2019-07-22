@@ -52,7 +52,7 @@ Test can be downloaded from following zenodo repository : https://doi.org/10.528
 ## Explanation input dialog for Macro_process_flatfield_v3.ijm
 - Work on current image or load from directory: Here you can choose to either use the current image already displayed in ImageJ as flatfield image, or you load a stored image as flatfield image. This should be a ratiometric image from a spatially uniform object (such as a fluorescent plastic slide).
 - Background: Here you can choose the background correction for the flatfield image. You can select a stored background ratiometric image (i.e. a dark ratio image with the same uniform object imaged without excitation light), a fixed background value (e.g. the camera bias), or no background correction of the flatfield image.
--Threshold ratio for selecting boundary of flatfield image: This selects a threshold for flatfield correction if the detected fluorescence in the image of a homogeneous object is this factor lower than the maximal value detected in the respective channel. This will reject ratiometric analysis of cells in areas of the image that suffer from strong vignetting artefacts.
+- Threshold ratio for selecting boundary of flatfield image: This selects a threshold for flatfield correction if the detected fluorescence in the image of a homogeneous object is this factor lower than the maximal value detected in the respective channel. This will reject ratiometric analysis of cells in areas of the image that suffer from strong vignetting artefacts.
 
 The flatfield macro will produce a ratiometric floating point image with a correction value per pixel by which the ratiometric images of the multiwell plate will be multiplied to correct for vignetting and filter cube dependent intensity deviations.
 
