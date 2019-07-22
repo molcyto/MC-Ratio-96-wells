@@ -1,6 +1,6 @@
 # MC-Ratio-96-wells
 ImageJ macro for analyzing fluorescence data obtained in 96 wells plates
-blabla
+
 ## Requirements
 Runs on 2019 FIJI and ImageJ 
 The macros were tested on MacOS Mojave (10.14.5) running:
