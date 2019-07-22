@@ -18,9 +18,9 @@ ImageJ & FIJI macro's can be dragged and dropped on the toolbar, which opens the
 Macros can also be loaded via Plugins->Macros menu, either use Edit or Run.
 
 ## Test data
-Test can be downloaded from following zenodo repository : https://doi.org/10.5281/zenodo.3338150
+Test can be downloaded from following zenodo repository : https://doi.org/10.5281/zenodo.3338264
 
-[download test data](https://zenodo.org/record/3338150/files/Testdata_SupSoftw_5_Ratio_96wells.zip?download=1)
+[download test data](https://zenodo.org/record/3338264/files/Testdata_SupSoftw_5_Ratio_96wells.zip?download=1)
 
 ## Screenshot of input dialog for Macro_96wells_Ratio_v7.ijm
 <img src="https://github.com/molcyto/MC-Ratio-96-wells/blob/master/Screenshot%20Ratio_96wells_macro_v7.png" width="600">
