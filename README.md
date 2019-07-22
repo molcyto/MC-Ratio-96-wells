@@ -22,13 +22,21 @@ Test can be downloaded from following zenodo repository : https://doi.org/10.528
 
 [download test data](https://zenodo.org/record/3338150/files/Testdata_SupSoftw_5_Ratio_96wells.zip?download=1)
 
-### test2
-- 1 fdfdf
-- 2 dfg dg
-- 3 dfg dg
-
 ## images
 <img src="https://github.com/molcyto/MC-Ratio-96-wells/blob/master/Screenshot%20Ratio_96wells_macro_v7.png" width="600">
+
+### Explanation input dialog
+- 96 wells or 384 wells: please choose well plate format
+- Fixed background valuw or rolling ball background: these are options to correct for background. Rolling ball uses the ImageJ rolling ball (radius 100 pixels) background subtraction. Fixed uses a fixed gray value that is subtracted from each ratio image.
+- In case of fixed background, what is background intensity: In case the previous input selected 'rolling ball' this is a dummy input, otherwise it sets the background gray value that is subtracted from the images prior to analysis.
+- Fixed threshold value or modal value threshold: Here you can choose how cells are recognized in the image, either by selecting a fixed threshold intensity above which you assume there are cells, or a modal value determination that determines the modal (background) gray value and uses a statistical evaluation of pixels above this background.
+- In case of fixed threshold, what intensity over the background: in case the previous choice was fixed this is the intensity threshold for selecting cells in the analysis, otherwise this is a dummy input.
+- Lower Threshold=number x sStdev + modal: In case a modal threshold was chosen for analysis, this value sets the threshold for analysis based on the modal value + this input times the standard deviation found in the image. In case a fixed threshold is chosen this is a dummy input.
+- Upper threshold: this is the upper threshold intensity for cell analysis. Pixel values above this threshold (e.g. due to overexposure) are rejected.
+- Smallest cell to analyze (pixel) this determines the smallest area in number of pixels to be analyzed. This can effectively reject small object or cell debris for interfering with the analysis.
+- Minimal circularity to analyze as cell (0.0-0.90): This option selects the minimal circularity that is required for each object detected in the image above the intensity threshold in order to be included in analysis. A value of 0.4 will automatically reject small fibers
+- Inlude flatfield correction: If this box is ticked a flatfield ratio image must be recorded and processed using the flatfield3 macro
+- 
 
 ## links
 [Visualizing heterogeneity](http://thenode.biologists.com/visualizing-heterogeneity-of-imaging-data/research/)
