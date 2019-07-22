@@ -28,7 +28,7 @@ Test can be downloaded from following zenodo repository : https://doi.org/10.528
 - 3 dfg dg
 
 ## images
-<img src="https://github.com/molcyto/MC-Ratio-96-wells/blob/master/Screenshot%20Ratio_96wells_macro_v6.png" width="600">
+<img src="https://github.com/molcyto/MC-Ratio-96-wells/blob/master/Screenshot%20Ratio_96wells_macro_v7.png" width="600">
 
 ## links
 [Visualizing heterogeneity](http://thenode.biologists.com/visualizing-heterogeneity-of-imaging-data/research/)
