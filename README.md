@@ -22,10 +22,10 @@ Test can be downloaded from following zenodo repository : https://doi.org/10.528
 
 [download test data](https://zenodo.org/record/3338150/files/Testdata_SupSoftw_5_Ratio_96wells.zip?download=1)
 
-## images
+## Screenshot of input dialog for Macro_96wells_Ratio_v7.ijm
 <img src="https://github.com/molcyto/MC-Ratio-96-wells/blob/master/Screenshot%20Ratio_96wells_macro_v7.png" width="600">
 
-## Explanation input dialog
+## Explanation input dialog for Macro_96wells_Ratio_v7.ijm
 - 96 wells or 384 wells: here the well plate format can be selected.
 - Fixed background valuw or rolling ball background: these are options to correct for background in the ratio images. Rolling ball uses the ImageJ rolling ball (radius 100 pixels) background subtraction. Fixed uses a fixed gray value that is subtracted from each ratio image.
 - In case of fixed background, what is background intensity: In case the previous input selected 'rolling ball' this is a dummy input, otherwise it sets the background gray value that is subtracted from the images prior to analysis.
@@ -45,6 +45,12 @@ Test can be downloaded from following zenodo repository : https://doi.org/10.528
 - Create output 96/384 well initial intensity image: If selected, a multiwell image is added of the detected average RFP intensity. This is useful for inspecting wells with very bright or dim cells.
 - Start row/Column: In case not an entire 96 well or 384 well is screened but a subsection of the plate, the first well (row, column) can be chosen. In case a 24 well plate is used, a 24 well plate output can be made by selecting E7 as first well.
 - Acquisition in meandering mode: If selected the sequence of ratio images is assumed to be in the order A1-A12, B12-B1, C1-C12, D12-D1, E1-E12, F12-F1, G1-G12, H12-H1 for a 96 well plate. If not selected it assumes an order A1-A12, B1-B12, C1-C12, D1-D12, E1-E12, F1-F12, G1-G12, H1-H12.
+
+## Screenshot of input dialog for Macro_Flatfield_v3.ijm
+<img src="https://github.com/molcyto/MC-Ratio-96-wells/blob/master/Screenshot%20Ratio_96wells_macro_v7.png" width="600">
+
+## Explanation input dialog for Macro_96wells_Ratio_v7.ijm
+- 96 wells or 384 wells: here the well plate format can be selected.
 
 ## links
 [Visualizing heterogeneity](http://thenode.biologists.com/visualizing-heterogeneity-of-imaging-data/research/)
