@@ -324,12 +324,12 @@ for (well=1;well<=pos;well++) {
 			}
 			ratio[well]=xy/x2;
 			if (cellcount>1) {
-				s_ratio[well]=sqrt((y2-xy^2/x2)/((cellcount-1)*x2));
+				s_ratio[well]=sqrt((y2-xy*xy/x2)/((cellcount-1)*x2));
 				rc[well]=(cellcount*xy-x1*y1)/sqrt((cellcount*x2-x1*x1)*(cellcount*y2-y1*y1));
 				if (ch>2){
-					s_ratio_gc[well]=sqrt((z2-xz^2/x2)/((cellcount-1)*x2));
+					s_ratio_gc[well]=sqrt((z2-xz*xz/x2)/((cellcount-1)*x2));
 					rc_gc[well]=(cellcount*xz-x1*z1)/sqrt((cellcount*x2-x1*x1)*(cellcount*z2-z1*z1));
-					s_ratio_gr[well]=sqrt((z2-yz^2/y2)/((cellcount-1)*y2));
+					s_ratio_gr[well]=sqrt((z2-yz*yz/y2)/((cellcount-1)*y2));
 					rc_gr[well]=(cellcount*yz-y1*z1)/sqrt((cellcount*y2-y1*y1)*(cellcount*z2-z1*z1));				}
 			}else{
 				s_ratio[well]=0;
